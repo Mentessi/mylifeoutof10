@@ -1,0 +1,208 @@
+body {
+	background: -webkit-gradient(linear, left top, left bottom, from(#DBD9DA), to(white)) repeat-x;
+}
+
+header {
+	height:120px;
+}
+
+header h1 {
+	font-family: helvetica;
+	font-size: 80.9px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+header p {
+	font-family: helvetica;
+	font-style: italic;
+	font-size: 50px;
+	display: inline-block;
+}
+
+
+
+/* definition ----------- */
+
+#definition p {
+	display: inline;
+	font-family: garamond;
+	font-size: 30.902px;
+}
+
+#definition h2 {
+	display: inline;
+	font-family: garamond;
+	font-size: 30.902px;
+	font-weight: bold;
+}
+
+#definition {
+	margin-bottom: 40px;
+}
+
+#definition a {
+	text-decoration:none;
+	color: #0060EF;
+}
+
+
+/* hear no, speak no, see no ----------- */
+
+#central img {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+#central a {
+	text-decoration: none;
+	text-align: center;
+	font-size: 19.099px;
+}
+
+
+.hear {
+	display: block;
+	height: 400px;
+}
+
+.speak_text{
+	height: 400px;
+	background-image: url(../img/pointer.png);
+	background-repeat: no-repeat;
+}
+
+.point {
+	margin-right:100px;
+}
+
+
+
+/* hear */
+
+.hear_text{
+	padding-top:30px;
+	height: 400px;
+	text-align: center;
+	font-family: 'Coming Soon', cursive, arial;
+	font-size: 60px;
+	font-weight: bold;
+	background-image: url(../img/flipchart2.png);
+}
+
+
+/* ----------- */
+
+
+.mid_foot {
+	margin-top: 30px;
+	padding-bottom: 100px;
+}
+
+h3 {
+	color: #948E90;
+	font-size: 11.804px;
+}
+
+ footer {
+ 	margin-top: 50px;
+}
+
+
+/* button */
+
+
+
+.button {
+  -webkit-transform: rotateX( 35deg );
+  position: relative;
+  display: inline-block;
+  width: 120px;
+  padding: 42px 20px;
+  margin: 60px 100px 0px 60px;
+  background-color: #C91826;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.5);
+  border: 1px solid;
+  border-color: #B21522;
+  border-radius: 78px;
+  -moz-border-radius: 78px;
+  -webkit-border-radius: 78px;
+  box-shadow:         inset 0px -4px 5px rgba(255,255,255,0.2),
+  inset 0px 1px 5px rgba(255,255,255,0.2),
+/**/
+0px 12px 0px #231F20,
+0px 14px 0px #231F20,
+0px 16px 0px #231F20,
+/**/
+0px 8px 5px rgba(0,0,0,0.5);
+
+-moz-box-shadow:    inset 0px -4px 5px rgba(255,255,255,0.2),
+inset 0px 1px 5px rgba(255,255,255,0.2),
+/**/
+0px 12px 0px #231F20,
+0px 14px 0px #231F20,
+0px 16px 0px #231F20,
+/**/
+0px 8px 5px rgba(0,0,0,0.5);
+-webkit-box-shadow: inset 5px -4px 5px rgba(255,255,255,0.2),
+inset 5px 1px 5px rgba(255,255,255,0.2),
+/**/
+0px 12px 0px #231F20,
+0px 14px 0px #231F20,
+0px 16px 0px #231F20;
+
+}
+
+.button:hover {
+  background-color: #B21522;
+  color: #e3e3e3;
+}
+
+.button:visited {
+  color:#e3e3e3;
+}
+
+.button:active {
+  top: 8px;
+  box-shadow:         inset 0px 4px 5px rgba(255,255,255,0.4),
+  inset 0px -1px 5px rgba(255,255,255,0.2),
+/**/
+0px 8px 0px #231F20,
+/**/
+0px 9px 5px rgba(0,0,0,0.5);
+-moz-box-shadow:    inset 0px 4px 5px rgba(255,255,255,0.4),
+inset 0px -1px 5px rgba(255,255,255,0.2),
+/**/
+0px 8px 0px #231F20,
+/**/
+0px 9px 5px rgba(0,0,0,0.5);
+-webkit-box-shadow: inset 0px 4px 5px rgba(255,255,255,0.4),
+inset 0px -1px 5px rgba(255,255,255,0.2),
+/**/
+0px 8px 0px #231F20,
+/**/
+0px 9px 5px rgba(0,0,0,0.5);
+}
+
+/*end of button */
+
+::selection {
+	background: #F72681; /* Safari */
+	}
+::-moz-selection {
+	background: #F72681; /* Firefox */
+}
+
+.clear:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
