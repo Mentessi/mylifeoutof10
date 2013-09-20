@@ -22,11 +22,11 @@ get '/tweets' do
 end
 
 
-
+# https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=mylifeoutof10&count=200
 class Tweets 
   
   def average
-    tweets = Twitter.user_timeline("mylifeoutof10")
+    tweets = Twitter.user_timeline("mylifeoutof10", options = {count: 200})
     scores = []
 
     tweets.each do |message| 
@@ -35,6 +35,7 @@ class Tweets
 
     scores.map! {|score| score.gsub "/10", "" }
     scores.map! { |x| x.to_f }
+    puts "scores: #{scores}"
     total = scores.inject{|sum, x| sum + x}
     average = (total / (scores.length)).round(1)
     average
